@@ -1,0 +1,20 @@
+{
+  "name": "event-hub",
+  "version": "1.0.0",
+  "description": "",
+  "main": "recv.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@azure/event-hubs": "^5.12.2",
+    "@azure/eventhubs-checkpointstore-blob": "^1.0.1",
+    "@azure/storage-blob": "^12.25.0"
+  },
+  "dependencies": {
+    "@azure/identity": "^4.5.0"
+  }
+}
